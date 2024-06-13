@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/game_object.js" defer></script>
+    <script src="js/player_object.js" defer></script>
+    <script src="js/boundaries.js" defer></script>
+    <script src="js/fight_scene.js" defer></script>
+    <script src="js/fight_scene_calls.js" defer></script>
+    <script src="js/world_scene_listeners.js" defer></script>
+    <script src="js/fight_scene_listeners.js" defer></script>
+    <script src="js/world_scene.js" defer></script>
+    <script src="js/save_game.js" defer></script>
+    <script src="js/load_game.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/battle_ui.js" defer></script>
+    
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <!-- <div style="float: right; background-color: white; padding-top: 1%; padding-bottom: 1%; padding-right: 1%; padding-left: .5%; margin-right: 20%; margin-top: 2%">
+        <div>
+            potion X 2
+        </div>
+        <div>
+            staff
+        </div>
+        <div style="margin-top: 20%;">
+            <button>Use</button>
+            <button>Discard</button>
+            <button>Map</button>
+            <button>Items</button>
+
+        </div> -->
+    </div>
+    
+    <p>Press 'w', 's'. 'a', 'd' to move.</p>
+    <p>Press 'q' for a defense sheild.</p>
+    <p>Press 'e' to attack.</p>
+    <hr>
+    <p >Player health: <span style="color: green;" id="player-health">100</span></p>
+    <p id="sheild">Sheild: <span style="color: orange;">0</span></p>
+    <p id="enemy-health">Enemy Health: <span style="color: red;">100</span></p>
+    <button id="btn-save" onclick="save_game()">Save</button>
+    <button id="btn-load" onclick="load_game()">Load</button>
+    <hr>
+
+    <table style="text-align: center; width: 25%;">
+        <tr>
+            <th>Level</th>
+            <th>Experience</th>
+            <th>Next Level</th>
+            <th>Gold</th>
+        </tr>
+        <tr>
+            <td id="menu_level">1</td>
+            <td id="menu_xp">0</td>
+            <td id="menu_next_level">100</td>
+            <td id="menu_gold">100</td>
+        </tr>
+
+    </table>
+    <br>
+    <table style="text-align: center; width: 50%; border: 1px solid black;">
+        <tr>
+            <th colspan="5">Stats</th>
+
+            
+        </tr>
+        <tr>
+            <td>Attack</td>
+            <td>Defense</td>
+            <td>Health</td>
+            <td>Magic</td>
+            <td>Stamina</td>
+        </tr>
+        <tr>
+            <td id="menu_att">100</td>
+            <td id="menu_def">100</td>
+            <td id="menu_hp">100</td>
+            <td id="menu_mp">100</td>
+            <td id="menu_st">100</td>
+        </tr>
+
+    </table>
+
+    
+    
+  
+
+</body>
+
+</html>

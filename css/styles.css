@@ -1,0 +1,19 @@
+body{
+    background-color: #5e5959;
+}
+#canvas{
+    width: 1304px;
+    height: 504px;
+    border: 1px solid black;
+    background: #5e5959;
+    margin: auto;
+    
+}
+th, td, tr {
+    padding: .5%;
+  }
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) */

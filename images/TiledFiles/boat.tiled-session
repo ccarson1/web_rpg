@@ -1,0 +1,52 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "boat.js",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "PC Computer - RPG Maker MV - Blue Sky.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "PlayStation - Final Fantasy Origins Final Fantasy 2 - Ship.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "boat.js": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 198.5,
+                "y": 320
+            }
+        },
+        "boat.js#PlayStation - Final Fantasy Origins Final Fantasy 2 - Ship": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "F:/Javascript/Game/rpg_game/images",
+    "map.lastUsedFormat": "js",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "boat.js",
+        "PlayStation - Final Fantasy Origins Final Fantasy 2 - Ship.tsx",
+        "PC Computer - RPG Maker MV - Blue Sky.tsx"
+    ],
+    "project": "boat.tiled-project",
+    "recentFiles": [
+        "PC Computer - RPG Maker MV - Blue Sky.tsx",
+        "PlayStation - Final Fantasy Origins Final Fantasy 2 - Ship.tsx",
+        "boat.js"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
